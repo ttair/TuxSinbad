@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

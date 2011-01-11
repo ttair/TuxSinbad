@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Water/CMakeFiles/Sample_Water.dir/progress.make
 include Samples/Water/CMakeFiles/Sample_Water.dir/flags.make
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o: Samples/Water/CMakeFiles/Sample_Water.dir/flags.make
-Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/Water.cpp
+Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o: Samples/Water/src/Water.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Water.dir/src/Water.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/Water.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Water.dir/src/Water.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/Water.cpp
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Water.dir/src/Water.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/Water.cpp > CMakeFiles/Sample_Water.dir/src/Water.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/Water.cpp > CMakeFiles/Sample_Water.dir/src/Water.cpp.i
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Water.dir/src/Water.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/Water.cpp -o CMakeFiles/Sample_Water.dir/src/Water.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/Water.cpp -o CMakeFiles/Sample_Water.dir/src/Water.cpp.s
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o.requires:
 .PHONY : Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o.provides.build: Sample
 .PHONY : Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o.provides.build
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o: Samples/Water/CMakeFiles/Sample_Water.dir/flags.make
-Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/WaterMesh.cpp
+Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o: Samples/Water/src/WaterMesh.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/WaterMesh.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/WaterMesh.cpp
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/WaterMesh.cpp > CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/WaterMesh.cpp > CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.i
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/WaterMesh.cpp -o CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/WaterMesh.cpp -o CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.s
 
 Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o.requires:
 .PHONY : Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o.requires
@@ -141,6 +141,6 @@ Samples/Water/CMakeFiles/Sample_Water.dir/clean:
 .PHONY : Samples/Water/CMakeFiles/Sample_Water.dir/clean
 
 Samples/Water/CMakeFiles/Sample_Water.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/CMakeFiles/Sample_Water.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/CMakeFiles/Sample_Water.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Water/CMakeFiles/Sample_Water.dir/depend
 

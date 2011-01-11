@@ -108,36 +108,4 @@
 		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
 		<nature>org.eclipse.cdt.core.cnature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>OGRE</name>
-			<type>2</type>
-			<location>/opt/kinect/LAB/Eclipse/ImportSinbad</location>
-		</link>
-		<link>
-			<name>OgreMain</name>
-			<type>2</type>
-			<location>/opt/kinect/LAB/Eclipse/ImportSinbad/OgreMain</location>
-		</link>
-		<link>
-			<name>OgrePaging</name>
-			<type>2</type>
-			<location>/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging</location>
-		</link>
-		<link>
-			<name>OgreProperty</name>
-			<type>2</type>
-			<location>/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Property</location>
-		</link>
-		<link>
-			<name>OgreRTShaderSystem</name>
-			<type>2</type>
-			<location>/opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem</location>
-		</link>
-		<link>
-			<name>OgreTerrain</name>
-			<type>2</type>
-			<location>/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain</location>
-		</link>
-	</linkedResources>
 </projectDescription>

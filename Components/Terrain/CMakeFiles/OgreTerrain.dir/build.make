@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Components/Terrain/CMakeFiles/OgreTerrain.dir/progress.make
 include Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrain.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o: Components/Terrain/src/OgreTerrain.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrain.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrain.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrain.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrain.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrain.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrain.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o.requires
@@ -74,18 +74,18 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o.provides.bui
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrain.cpp.o.provides.build
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainGroup.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o: Components/Terrain/src/OgreTerrainGroup.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainGroup.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainGroup.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainGroup.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainGroup.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainGroup.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainGroup.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o.requires
@@ -98,18 +98,18 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o.provide
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainGroup.cpp.o.provides.build
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainLayerBlendMap.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o: Components/Terrain/src/OgreTerrainLayerBlendMap.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainLayerBlendMap.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainLayerBlendMap.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainLayerBlendMap.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainLayerBlendMap.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainLayerBlendMap.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainLayerBlendMap.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o.requires
@@ -122,18 +122,18 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainLayerBlendMap.cpp.o.provides.build
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGenerator.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o: Components/Terrain/src/OgreTerrainMaterialGenerator.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGenerator.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainMaterialGenerator.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGenerator.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainMaterialGenerator.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGenerator.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainMaterialGenerator.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o.requires
@@ -146,18 +146,18 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.c
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGenerator.cpp.o.provides.build
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o: Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainMaterialGeneratorA.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o.requires
@@ -170,18 +170,18 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainMaterialGeneratorA.cpp.o.provides.build
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainQuadTreeNode.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o: Components/Terrain/src/OgreTerrainQuadTreeNode.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainQuadTreeNode.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainQuadTreeNode.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainQuadTreeNode.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainQuadTreeNode.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainQuadTreeNode.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainQuadTreeNode.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o.requires
@@ -194,18 +194,18 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o.
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainQuadTreeNode.cpp.o.provides.build
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPaging.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o: Components/Terrain/src/OgreTerrainPaging.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPaging.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainPaging.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPaging.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainPaging.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPaging.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainPaging.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o.requires
@@ -218,18 +218,18 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o.provid
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPaging.cpp.o.provides.build
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o: Components/Terrain/CMakeFiles/OgreTerrain.dir/flags.make
-Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPagedWorldSection.cpp
+Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o: Components/Terrain/src/OgreTerrainPagedWorldSection.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPagedWorldSection.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainPagedWorldSection.cpp
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPagedWorldSection.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainPagedWorldSection.cpp > CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.i
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/src/OgreTerrainPagedWorldSection.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/src/OgreTerrainPagedWorldSection.cpp -o CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.s
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o.requires:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/src/OgreTerrainPagedWorldSection.cpp.o.requires
@@ -307,6 +307,6 @@ Components/Terrain/CMakeFiles/OgreTerrain.dir/clean:
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/clean
 
 Components/Terrain/CMakeFiles/OgreTerrain.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/CMakeFiles/OgreTerrain.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/CMakeFiles/OgreTerrain.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Components/Terrain/CMakeFiles/OgreTerrain.dir/depend
 

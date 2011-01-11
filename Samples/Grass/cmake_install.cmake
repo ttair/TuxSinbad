@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Grass
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Grass
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/progress.m
 include PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspLevel.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o: PlugIns/BSPSceneManager/src/OgreBspLevel.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspLevel.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspLevel.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspLevel.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspLevel.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspLevel.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspLevel.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o.requires
@@ -74,18 +74,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.c
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspLevel.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspNode.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o: PlugIns/BSPSceneManager/src/OgreBspNode.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspNode.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspNode.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspNode.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspNode.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspNode.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspNode.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o.requires
@@ -98,18 +98,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cp
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspNode.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o: PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspResourceManager.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o.requires
@@ -122,18 +122,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourc
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspResourceManager.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o: PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManager.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o.requires
@@ -146,18 +146,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneMa
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManager.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o: PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerDll.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o.requires
@@ -170,18 +170,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneMa
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerDll.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o: PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneManagerPlugin.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o.requires
@@ -194,18 +194,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneMa
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneManagerPlugin.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o: PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreBspSceneNode.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o.requires
@@ -218,18 +218,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNo
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreBspSceneNode.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o: PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3Level.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o.requires
@@ -242,18 +242,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Leve
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Level.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o: PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3Shader.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o.requires
@@ -266,18 +266,18 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shad
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3Shader.cpp.o.provides.build
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/flags.make
-PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp
+PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o: PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp > CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.i
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/src/OgreQuake3ShaderManager.cpp -o CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.s
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o.requires:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/src/OgreQuake3ShaderManager.cpp.o.requires
@@ -354,6 +354,6 @@ PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/clean:
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/clean
 
 PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/depend
 

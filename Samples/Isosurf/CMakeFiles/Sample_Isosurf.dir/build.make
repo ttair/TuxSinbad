@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/progress.make
 include Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/flags.make
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o: Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/flags.make
-Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/ProceduralTools.cpp
+Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o: Samples/Isosurf/src/ProceduralTools.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/ProceduralTools.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/ProceduralTools.cpp
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/ProceduralTools.cpp > CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/ProceduralTools.cpp > CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.i
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/ProceduralTools.cpp -o CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/ProceduralTools.cpp -o CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.s
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o.requires:
 .PHONY : Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o.provides
 .PHONY : Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o.provides.build
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o: Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/flags.make
-Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/Isosurf.cpp
+Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o: Samples/Isosurf/src/Isosurf.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/Isosurf.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/Isosurf.cpp
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/Isosurf.cpp > CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/Isosurf.cpp > CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.i
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/Isosurf.cpp -o CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/Isosurf.cpp -o CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.s
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o.requires:
 .PHONY : Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o.requires
@@ -141,6 +141,6 @@ Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/clean:
 .PHONY : Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/clean
 
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/depend
 

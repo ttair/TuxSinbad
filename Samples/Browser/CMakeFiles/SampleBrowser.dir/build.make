@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Browser/CMakeFiles/SampleBrowser.dir/progress.make
 include Samples/Browser/CMakeFiles/SampleBrowser.dir/flags.make
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o: Samples/Browser/CMakeFiles/SampleBrowser.dir/flags.make
-Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/SampleBrowser.cpp
+Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o: Samples/Browser/src/SampleBrowser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/SampleBrowser.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/src/SampleBrowser.cpp
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/SampleBrowser.cpp > CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/src/SampleBrowser.cpp > CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.i
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/SampleBrowser.cpp -o CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/src/SampleBrowser.cpp -o CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.s
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o.requires:
 .PHONY : Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o.provides.bu
 .PHONY : Samples/Browser/CMakeFiles/SampleBrowser.dir/src/SampleBrowser.cpp.o.provides.build
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o: Samples/Browser/CMakeFiles/SampleBrowser.dir/flags.make
-Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/FileSystemLayerImpl_Unix.cpp
+Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o: Samples/Browser/src/FileSystemLayerImpl_Unix.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/FileSystemLayerImpl_Unix.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/src/FileSystemLayerImpl_Unix.cpp
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/FileSystemLayerImpl_Unix.cpp > CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/src/FileSystemLayerImpl_Unix.cpp > CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.i
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/src/FileSystemLayerImpl_Unix.cpp -o CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/src/FileSystemLayerImpl_Unix.cpp -o CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.s
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o.requires:
 .PHONY : Samples/Browser/CMakeFiles/SampleBrowser.dir/src/FileSystemLayerImpl_Unix.cpp.o.requires
@@ -141,6 +141,6 @@ Samples/Browser/CMakeFiles/SampleBrowser.dir/clean:
 .PHONY : Samples/Browser/CMakeFiles/SampleBrowser.dir/clean
 
 Samples/Browser/CMakeFiles/SampleBrowser.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/CMakeFiles/SampleBrowser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/CMakeFiles/SampleBrowser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Browser/CMakeFiles/SampleBrowser.dir/depend
 

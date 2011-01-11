@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

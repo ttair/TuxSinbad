@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

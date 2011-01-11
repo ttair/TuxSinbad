@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/progress.make
 include Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/flags.make
 
 Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o: Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/flags.make
-Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Fresnel/src/Fresnel.cpp
+Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o: Samples/Fresnel/src/Fresnel.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Fresnel/src/Fresnel.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel/src/Fresnel.cpp
 
 Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Fresnel/src/Fresnel.cpp > CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel/src/Fresnel.cpp > CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.i
 
 Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Fresnel/src/Fresnel.cpp -o CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel/src/Fresnel.cpp -o CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.s
 
 Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o.requires:
 .PHONY : Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/src/Fresnel.cpp.o.requires
@@ -114,6 +114,6 @@ Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/clean:
 .PHONY : Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/clean
 
 Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Fresnel /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/depend
 

@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/DynTex/CMakeFiles/Sample_DynTex.dir/progress.make
 include Samples/DynTex/CMakeFiles/Sample_DynTex.dir/flags.make
 
 Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o: Samples/DynTex/CMakeFiles/Sample_DynTex.dir/flags.make
-Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DynTex/src/DynTex.cpp
+Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o: Samples/DynTex/src/DynTex.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DynTex/src/DynTex.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex/src/DynTex.cpp
 
 Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DynTex/src/DynTex.cpp > CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex/src/DynTex.cpp > CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.i
 
 Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DynTex/src/DynTex.cpp -o CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex/src/DynTex.cpp -o CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.s
 
 Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o.requires:
 .PHONY : Samples/DynTex/CMakeFiles/Sample_DynTex.dir/src/DynTex.cpp.o.requires
@@ -114,6 +114,6 @@ Samples/DynTex/CMakeFiles/Sample_DynTex.dir/clean:
 .PHONY : Samples/DynTex/CMakeFiles/Sample_DynTex.dir/clean
 
 Samples/DynTex/CMakeFiles/Sample_DynTex.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DynTex /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex/CMakeFiles/Sample_DynTex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex/CMakeFiles/Sample_DynTex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/DynTex/CMakeFiles/Sample_DynTex.dir/depend
 

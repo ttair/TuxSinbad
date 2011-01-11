@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/progress.m
 include PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o: PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreAntiPortal.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o.requires
@@ -74,18 +74,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreAntiPortal.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreCapsule.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o: PlugIns/PCZSceneManager/src/OgreCapsule.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreCapsule.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreCapsule.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreCapsule.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreCapsule.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreCapsule.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreCapsule.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o.requires
@@ -98,18 +98,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cp
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreCapsule.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o: PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreDefaultZone.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o.requires
@@ -122,18 +122,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZon
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreDefaultZone.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCPlane.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o: PlugIns/PCZSceneManager/src/OgrePCPlane.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCPlane.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCPlane.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCPlane.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCPlane.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCPlane.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCPlane.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o.requires
@@ -146,18 +146,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cp
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCPlane.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZCamera.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o.requires
@@ -170,18 +170,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZCamera.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZFrustum.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o.requires
@@ -194,18 +194,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZFrustum.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZLight.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZLight.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZLight.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZLight.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZLight.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZLight.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZLight.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZLight.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o.requires
@@ -218,18 +218,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.c
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZLight.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZone.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZone.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZone.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZone.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZone.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZone.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZone.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZone.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o.requires
@@ -242,18 +242,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZone.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZoneFactory.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o.requires
@@ -266,18 +266,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFact
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZoneFactory.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZPlugin.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o.requires
@@ -290,18 +290,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZPlugin.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManager.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o.requires
@@ -314,18 +314,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneMa
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManager.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneManagerDll.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o.requires
@@ -338,18 +338,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneMa
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneManagerDll.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneNode.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o.requires
@@ -362,18 +362,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNo
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneNode.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o: PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePCZSceneQuery.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o.requires
@@ -386,18 +386,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQu
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePCZSceneQuery.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortal.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o: PlugIns/PCZSceneManager/src/OgrePortal.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortal.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePortal.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortal.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePortal.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortal.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePortal.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o.requires
@@ -410,18 +410,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortal.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortalBase.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o: PlugIns/PCZSceneManager/src/OgrePortalBase.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortalBase.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePortalBase.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortalBase.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePortalBase.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgrePortalBase.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgrePortalBase.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o.requires
@@ -434,18 +434,18 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgrePortalBase.cpp.o.provides.build
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/flags.make
-PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreSegment.cpp
+PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o: PlugIns/PCZSceneManager/src/OgreSegment.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreSegment.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreSegment.cpp
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreSegment.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreSegment.cpp > CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.i
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/src/OgreSegment.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/src/OgreSegment.cpp -o CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.s
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o.requires:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/src/OgreSegment.cpp.o.requires
@@ -543,6 +543,6 @@ PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/clean:
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/clean
 
 PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/depend
 

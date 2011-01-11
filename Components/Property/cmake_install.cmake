@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Property
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Property
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -118,8 +118,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Property" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Property/include/OgreProperty.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Property/include/OgrePropertyPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Property/include/OgreProperty.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Property/include/OgrePropertyPrerequisites.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

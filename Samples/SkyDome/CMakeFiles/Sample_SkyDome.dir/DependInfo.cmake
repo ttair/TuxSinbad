@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/SkyDome/src/SkyDome.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/src/SkyDome.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkyDome/src/SkyDome.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/src/SkyDome.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

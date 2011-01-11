@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/progress.make
 include Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/flags.make
 
 Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o: Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/flags.make
-Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/TextureFX/src/TextureFX.cpp
+Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o: Samples/TextureFX/src/TextureFX.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/TextureFX/src/TextureFX.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX/src/TextureFX.cpp
 
 Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/TextureFX/src/TextureFX.cpp > CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX/src/TextureFX.cpp > CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.i
 
 Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/TextureFX/src/TextureFX.cpp -o CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX/src/TextureFX.cpp -o CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.s
 
 Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o.requires:
 .PHONY : Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/src/TextureFX.cpp.o.requires
@@ -114,6 +114,6 @@ Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/clean:
 .PHONY : Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/clean
 
 Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/TextureFX /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/depend
 

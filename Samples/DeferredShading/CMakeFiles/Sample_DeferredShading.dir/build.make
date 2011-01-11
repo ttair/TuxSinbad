@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/progress.m
 include Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/AmbientLight.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o: Samples/DeferredShading/src/AmbientLight.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/AmbientLight.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/AmbientLight.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/AmbientLight.cpp > CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/AmbientLight.cpp > CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/AmbientLight.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/AmbientLight.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.c
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/AmbientLight.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredLightCP.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o: Samples/DeferredShading/src/DeferredLightCP.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredLightCP.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredLightCP.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredLightCP.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredLightCP.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredLightCP.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredLightCP.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o.requires
@@ -98,18 +98,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightC
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredLightCP.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShading.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o: Samples/DeferredShading/src/DeferredShading.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShading.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredShading.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShading.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredShading.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShading.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredShading.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o.requires
@@ -122,18 +122,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadin
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShading.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShadingDemo.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o: Samples/DeferredShading/src/DeferredShadingDemo.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShadingDemo.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredShadingDemo.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShadingDemo.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredShadingDemo.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DeferredShadingDemo.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DeferredShadingDemo.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o.requires
@@ -146,18 +146,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadin
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DeferredShadingDemo.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DLight.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o: Samples/DeferredShading/src/DLight.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DLight.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DLight.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DLight.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DLight.cpp > CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/DLight.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/DLight.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o.requires
@@ -170,18 +170,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o.p
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/DLight.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferMaterialGenerator.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o: Samples/DeferredShading/src/GBufferMaterialGenerator.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferMaterialGenerator.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GBufferMaterialGenerator.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferMaterialGenerator.cpp > CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GBufferMaterialGenerator.cpp > CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferMaterialGenerator.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GBufferMaterialGenerator.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o.requires
@@ -194,18 +194,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMateria
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferMaterialGenerator.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferSchemeHandler.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o: Samples/DeferredShading/src/GBufferSchemeHandler.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferSchemeHandler.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GBufferSchemeHandler.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferSchemeHandler.cpp > CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GBufferSchemeHandler.cpp > CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GBufferSchemeHandler.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GBufferSchemeHandler.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o.requires
@@ -218,18 +218,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeH
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GBufferSchemeHandler.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GeomUtils.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o: Samples/DeferredShading/src/GeomUtils.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GeomUtils.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GeomUtils.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GeomUtils.cpp > CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GeomUtils.cpp > CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/GeomUtils.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/GeomUtils.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o.requires
@@ -242,18 +242,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/GeomUtils.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/LightMaterialGenerator.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o: Samples/DeferredShading/src/LightMaterialGenerator.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/LightMaterialGenerator.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/LightMaterialGenerator.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/LightMaterialGenerator.cpp > CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/LightMaterialGenerator.cpp > CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/LightMaterialGenerator.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/LightMaterialGenerator.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o.requires
@@ -266,18 +266,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialG
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/LightMaterialGenerator.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/MaterialGenerator.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o: Samples/DeferredShading/src/MaterialGenerator.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/MaterialGenerator.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/MaterialGenerator.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/MaterialGenerator.cpp > CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/MaterialGenerator.cpp > CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/MaterialGenerator.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/MaterialGenerator.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o.requires
@@ -290,18 +290,18 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenera
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/MaterialGenerator.cpp.o.provides.build
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/flags.make
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/SSAOLogic.cpp
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o: Samples/DeferredShading/src/SSAOLogic.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/SSAOLogic.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/SSAOLogic.cpp
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/SSAOLogic.cpp > CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/SSAOLogic.cpp > CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.i
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/src/SSAOLogic.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/src/SSAOLogic.cpp -o CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.s
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o.requires:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/src/SSAOLogic.cpp.o.requires
@@ -384,6 +384,6 @@ Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/clean:
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/clean
 
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/depend
 

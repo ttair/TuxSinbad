@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/progress.make
 include PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreAreaEmitter.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o: PlugIns/ParticleFX/src/OgreAreaEmitter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreAreaEmitter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreAreaEmitter.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreAreaEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreAreaEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreAreaEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreAreaEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o.requires
@@ -74,18 +74,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o.pr
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreAreaEmitter.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreBoxEmitter.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o: PlugIns/ParticleFX/src/OgreBoxEmitter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreBoxEmitter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreBoxEmitter.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreBoxEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreBoxEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreBoxEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreBoxEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o.requires
@@ -98,18 +98,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o.pro
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreBoxEmitter.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o: PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourFaderAffector2.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o.requires
@@ -122,18 +122,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector2.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o: PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourFaderAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o.requires
@@ -146,18 +146,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourFaderAffector.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourImageAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o: PlugIns/ParticleFX/src/OgreColourImageAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourImageAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourImageAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourImageAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourImageAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourImageAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourImageAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o.requires
@@ -170,18 +170,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourImageAffector.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o: PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreColourInterpolatorAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o.requires
@@ -194,18 +194,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAf
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreColourInterpolatorAffector.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o: PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreCylinderEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o.requires
@@ -218,18 +218,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreCylinderEmitter.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o: PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreDeflectorPlaneAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o.requires
@@ -242,18 +242,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffect
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDeflectorPlaneAffector.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o: PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreDirectionRandomiserAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o.requires
@@ -266,18 +266,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserA
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreDirectionRandomiserAffector.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o: PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreEllipsoidEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o.requires
@@ -290,18 +290,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreEllipsoidEmitter.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o: PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreHollowEllipsoidEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o.requires
@@ -314,18 +314,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitt
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreHollowEllipsoidEmitter.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o: PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreLinearForceAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o.requires
@@ -338,18 +338,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreLinearForceAffector.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFX.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o: PlugIns/ParticleFX/src/OgreParticleFX.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFX.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreParticleFX.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFX.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreParticleFX.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFX.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreParticleFX.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o.requires
@@ -362,18 +362,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o.pro
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFX.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o: PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreParticleFXPlugin.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o.requires
@@ -386,18 +386,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreParticleFXPlugin.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgrePointEmitter.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o: PlugIns/ParticleFX/src/OgrePointEmitter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgrePointEmitter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgrePointEmitter.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgrePointEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgrePointEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgrePointEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgrePointEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o.requires
@@ -410,18 +410,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o.p
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgrePointEmitter.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRingEmitter.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o: PlugIns/ParticleFX/src/OgreRingEmitter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRingEmitter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreRingEmitter.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRingEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreRingEmitter.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRingEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreRingEmitter.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o.requires
@@ -434,18 +434,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o.pr
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRingEmitter.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRotationAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o: PlugIns/ParticleFX/src/OgreRotationAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRotationAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreRotationAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRotationAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreRotationAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreRotationAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreRotationAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o.requires
@@ -458,18 +458,18 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreRotationAffector.cpp.o.provides.build
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/flags.make
-PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreScaleAffector.cpp
+PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o: PlugIns/ParticleFX/src/OgreScaleAffector.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreScaleAffector.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreScaleAffector.cpp
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreScaleAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreScaleAffector.cpp > CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.i
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/src/OgreScaleAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/src/OgreScaleAffector.cpp -o CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.s
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o.requires:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/src/OgreScaleAffector.cpp.o.requires
@@ -570,6 +570,6 @@ PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/clean:
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/clean
 
 PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/depend
 

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/BSP/src/BSP.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/BSP/CMakeFiles/Sample_BSP.dir/src/BSP.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/BSP/src/BSP.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/BSP/CMakeFiles/Sample_BSP.dir/src/BSP.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

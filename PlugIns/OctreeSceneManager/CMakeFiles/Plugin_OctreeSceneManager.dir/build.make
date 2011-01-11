@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/prog
 include PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o: PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreHeightmapTerrainPageSource.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o.requires
@@ -74,18 +74,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeig
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreHeightmapTerrainPageSource.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctree.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o: PlugIns/OctreeSceneManager/src/OgreOctree.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctree.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctree.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctree.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctree.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctree.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctree.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o.requires
@@ -98,18 +98,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctree.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o: PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeCamera.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o.requires
@@ -122,18 +122,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeCamera.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o: PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeNode.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o.requires
@@ -146,18 +146,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeNode.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o: PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreePlugin.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o.requires
@@ -170,18 +170,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreePlugin.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o: PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManager.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o.requires
@@ -194,18 +194,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManager.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o: PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneManagerDll.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o.requires
@@ -218,18 +218,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneManagerDll.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o: PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreOctreeSceneQuery.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o.requires
@@ -242,18 +242,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreOctreeSceneQuery.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o: PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainPage.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o.requires
@@ -266,18 +266,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPage.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o: PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainPageSource.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o.requires
@@ -290,18 +290,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainPageSource.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o: PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainRenderable.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o.requires
@@ -314,18 +314,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainRenderable.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o: PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainSceneManager.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o.requires
@@ -338,18 +338,18 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerr
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainSceneManager.cpp.o.provides.build
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/flags.make
-PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp
+PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o: PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp > CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.i
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/src/OgreTerrainVertexProgram.cpp -o CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.s
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o.requires:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/src/OgreTerrainVertexProgram.cpp.o.requires
@@ -435,6 +435,6 @@ PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/clean:
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/clean
 
 PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/depend
 

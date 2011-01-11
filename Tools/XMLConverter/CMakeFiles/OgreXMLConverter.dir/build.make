@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/progress.make
 include Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o: Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
-Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/main.cpp
+Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o: Tools/XMLConverter/src/main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/main.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/main.cpp
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreXMLConverter.dir/src/main.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/main.cpp > CMakeFiles/OgreXMLConverter.dir/src/main.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/main.cpp > CMakeFiles/OgreXMLConverter.dir/src/main.cpp.i
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreXMLConverter.dir/src/main.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/main.cpp -o CMakeFiles/OgreXMLConverter.dir/src/main.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/main.cpp -o CMakeFiles/OgreXMLConverter.dir/src/main.cpp.s
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o.requires:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o.requires
@@ -74,18 +74,18 @@ Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o.provides.build
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o.provides.build
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o: Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
-Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp
+Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o: Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp > CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp > CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.i
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.s
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o.requires:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o.requires
@@ -98,18 +98,18 @@ Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o.provides.build
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o: Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
-Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp
+Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o: Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp > CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp > CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.i
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp -o CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.s
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o.requires:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o.requires
@@ -122,18 +122,18 @@ Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o.provides.build
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o: Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
-Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinystr.cpp
+Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o: Tools/XMLConverter/src/tinystr.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinystr.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinystr.cpp
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinystr.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinystr.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.i
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinystr.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinystr.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.s
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o.requires:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o.requires
@@ -146,18 +146,18 @@ Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o.provides.bu
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o.provides.build
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o: Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
-Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxml.cpp
+Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o: Tools/XMLConverter/src/tinyxml.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxml.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxml.cpp
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxml.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxml.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.i
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxml.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxml.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.s
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o.requires:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o.requires
@@ -170,18 +170,18 @@ Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o.provides.bu
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o.provides.build
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o: Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
-Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlerror.cpp
+Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o: Tools/XMLConverter/src/tinyxmlerror.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlerror.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlerror.cpp
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlerror.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlerror.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.i
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlerror.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlerror.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.s
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o.requires:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o.requires
@@ -194,18 +194,18 @@ Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o.provid
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o.provides.build
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o: Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/flags.make
-Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlparser.cpp
+Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o: Tools/XMLConverter/src/tinyxmlparser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlparser.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlparser.cpp
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlparser.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlparser.cpp > CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.i
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlparser.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlparser.cpp -o CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.s
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o.requires:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o.requires
@@ -273,6 +273,6 @@ Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/clean:
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/clean
 
 Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/depend
 

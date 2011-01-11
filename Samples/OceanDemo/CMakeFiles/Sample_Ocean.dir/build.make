@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/progress.make
 include Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/flags.make
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o: Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/flags.make
-Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/OceanDemo.cpp
+Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o: Samples/OceanDemo/src/OceanDemo.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/OceanDemo.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/OceanDemo.cpp
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/OceanDemo.cpp > CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/OceanDemo.cpp > CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.i
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/OceanDemo.cpp -o CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/OceanDemo.cpp -o CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.s
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o.requires:
 .PHONY : Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o.provides.build
 .PHONY : Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o.provides.build
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o: Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/flags.make
-Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/MaterialControls.cpp
+Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o: Samples/OceanDemo/src/MaterialControls.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/MaterialControls.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/MaterialControls.cpp
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/MaterialControls.cpp > CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/MaterialControls.cpp > CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.i
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/MaterialControls.cpp -o CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/MaterialControls.cpp -o CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.s
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o.requires:
 .PHONY : Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o.requires
@@ -141,6 +141,6 @@ Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/clean:
 .PHONY : Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/clean
 
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/depend
 

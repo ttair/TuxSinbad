@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump/src/Dot3Bump.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/src/Dot3Bump.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

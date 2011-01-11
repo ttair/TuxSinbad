@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Compositor/CMakeFiles/Sample_Compositor.dir/progress.make
 include Samples/Compositor/CMakeFiles/Sample_Compositor.dir/flags.make
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o: Samples/Compositor/CMakeFiles/Sample_Compositor.dir/flags.make
-Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/Compositor.cpp
+Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o: Samples/Compositor/src/Compositor.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/Compositor.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/Compositor.cpp
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/Compositor.cpp > CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/Compositor.cpp > CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.i
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/Compositor.cpp -o CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/Compositor.cpp -o CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.s
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o.requires:
 .PHONY : Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o.provide
 .PHONY : Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o.provides.build
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o: Samples/Compositor/CMakeFiles/Sample_Compositor.dir/flags.make
-Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/HelperLogics.cpp
+Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o: Samples/Compositor/src/HelperLogics.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/HelperLogics.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/HelperLogics.cpp
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/HelperLogics.cpp > CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/HelperLogics.cpp > CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.i
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/HelperLogics.cpp -o CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/HelperLogics.cpp -o CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.s
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o.requires:
 .PHONY : Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o.requires
@@ -141,6 +141,6 @@ Samples/Compositor/CMakeFiles/Sample_Compositor.dir/clean:
 .PHONY : Samples/Compositor/CMakeFiles/Sample_Compositor.dir/clean
 
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/CMakeFiles/Sample_Compositor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/CMakeFiles/Sample_Compositor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Compositor/CMakeFiles/Sample_Compositor.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Plugins/BSPSceneManager" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreBspLevel.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreBspNode.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreBspPrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreBspResourceManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreBspSceneManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreBspSceneManagerPlugin.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreBspSceneNode.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreQuake3Level.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreQuake3Shader.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreQuake3ShaderManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include/OgreQuake3Types.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreBspLevel.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreBspNode.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreBspPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreBspResourceManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreBspSceneManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreBspSceneManagerPlugin.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreBspSceneNode.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreQuake3Level.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreQuake3Shader.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreQuake3ShaderManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include/OgreQuake3Types.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

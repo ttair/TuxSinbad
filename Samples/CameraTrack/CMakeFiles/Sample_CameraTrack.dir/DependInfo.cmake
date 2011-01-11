@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack/src/CameraTrack.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/src/CameraTrack.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

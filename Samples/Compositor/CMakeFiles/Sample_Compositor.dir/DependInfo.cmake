@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/Compositor.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/src/HelperLogics.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/Compositor.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/Compositor.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/src/HelperLogics.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/CMakeFiles/Sample_Compositor.dir/src/HelperLogics.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

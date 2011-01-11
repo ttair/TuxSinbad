@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/CharacterSample.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/Sinbad.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/CharacterSample.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/Sinbad.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

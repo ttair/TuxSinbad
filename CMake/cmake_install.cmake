@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/CMake
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/CMake
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/OGRE/cmake" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Packages/FindOIS.cmake"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Packages/FindOGRE.cmake"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Utils/FindPkgMacros.cmake"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Utils/MacroLogFeature.cmake"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Utils/PreprocessorUtils.cmake"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Utils/OgreConfigTargets.cmake"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Utils/OgreGetVersion.cmake"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/CMake/Utils/OgreFindFrameworks.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Packages/FindOIS.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Packages/FindOGRE.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Utils/FindPkgMacros.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Utils/MacroLogFeature.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Utils/PreprocessorUtils.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Utils/OgreConfigTargets.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Utils/OgreGetVersion.cmake"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/CMake/Utils/OgreFindFrameworks.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

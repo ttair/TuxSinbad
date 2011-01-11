@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Samples
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/FileSystemLayer.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/SdkTrays.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/SampleContext.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/Sample.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/ExampleFrameListener.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/SdkCameraMan.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/OgreStaticPluginLoader.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/ExampleLoadingBar.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/SamplePlugin.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/SdkSample.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include/ExampleApplication.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/FileSystemLayer.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/SdkTrays.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/SampleContext.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/Sample.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/ExampleFrameListener.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/SdkCameraMan.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/OgreStaticPluginLoader.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/ExampleLoadingBar.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/SamplePlugin.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/SdkSample.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include/ExampleApplication.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

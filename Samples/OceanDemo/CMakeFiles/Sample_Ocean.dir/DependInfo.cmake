@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/MaterialControls.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/src/OceanDemo.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/MaterialControls.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/MaterialControls.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/src/OceanDemo.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/src/OceanDemo.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

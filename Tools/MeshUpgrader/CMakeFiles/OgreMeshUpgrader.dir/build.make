@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/progress.make
 include Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/flags.make
 
 Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o: Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/flags.make
-Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/MeshUpgrader/src/main.cpp
+Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o: Tools/MeshUpgrader/src/main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/MeshUpgrader/src/main.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader/src/main.cpp
 
 Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/MeshUpgrader/src/main.cpp > CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader/src/main.cpp > CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.i
 
 Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/MeshUpgrader/src/main.cpp -o CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader/src/main.cpp -o CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.s
 
 Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o.requires:
 .PHONY : Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o.requires
@@ -111,6 +111,6 @@ Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/clean:
 .PHONY : Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/clean
 
 Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/MeshUpgrader /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Tools/MeshUpgrader/CMakeFiles/OgreMeshUpgrader.dir/depend
 

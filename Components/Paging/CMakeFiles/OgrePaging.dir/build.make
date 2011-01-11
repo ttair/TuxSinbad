@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Components/Paging/CMakeFiles/OgrePaging.dir/progress.make
 include Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreGrid2DPageStrategy.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o: Components/Paging/src/OgreGrid2DPageStrategy.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreGrid2DPageStrategy.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgreGrid2DPageStrategy.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreGrid2DPageStrategy.cpp > CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgreGrid2DPageStrategy.cpp > CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreGrid2DPageStrategy.cpp -o CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgreGrid2DPageStrategy.cpp -o CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o.requires
@@ -74,18 +74,18 @@ Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o.pro
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreGrid2DPageStrategy.cpp.o.provides.build
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePage.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o: Components/Paging/src/OgrePage.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePage.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePage.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePage.cpp > CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePage.cpp > CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePage.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePage.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o.requires
@@ -98,18 +98,18 @@ Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o.provides.build: C
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePage.cpp.o.provides.build
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContent.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o: Components/Paging/src/OgrePageContent.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContent.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageContent.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContent.cpp > CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageContent.cpp > CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContent.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageContent.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o.requires
@@ -122,18 +122,18 @@ Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o.provides.b
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContent.cpp.o.provides.build
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContentCollection.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o: Components/Paging/src/OgrePageContentCollection.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContentCollection.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageContentCollection.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContentCollection.cpp > CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageContentCollection.cpp > CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageContentCollection.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageContentCollection.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o.requires
@@ -146,18 +146,18 @@ Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o.
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageContentCollection.cpp.o.provides.build
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorld.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o: Components/Paging/src/OgrePagedWorld.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorld.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePagedWorld.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorld.cpp > CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePagedWorld.cpp > CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorld.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePagedWorld.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o.requires
@@ -170,18 +170,18 @@ Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o.provides.bu
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorld.cpp.o.provides.build
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorldSection.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o: Components/Paging/src/OgrePagedWorldSection.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorldSection.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePagedWorldSection.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorldSection.cpp > CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePagedWorldSection.cpp > CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePagedWorldSection.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePagedWorldSection.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o.requires
@@ -194,18 +194,18 @@ Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o.prov
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePagedWorldSection.cpp.o.provides.build
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageManager.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o: Components/Paging/src/OgrePageManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageManager.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageManager.cpp > CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageManager.cpp > CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgrePageManager.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgrePageManager.cpp -o CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o.requires
@@ -218,18 +218,18 @@ Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o.provides.b
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgrePageManager.cpp.o.provides.build
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o: Components/Paging/CMakeFiles/OgrePaging.dir/flags.make
-Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreSimplePageContentCollection.cpp
+Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o: Components/Paging/src/OgreSimplePageContentCollection.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreSimplePageContentCollection.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgreSimplePageContentCollection.cpp
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreSimplePageContentCollection.cpp > CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgreSimplePageContentCollection.cpp > CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.i
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/src/OgreSimplePageContentCollection.cpp -o CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/src/OgreSimplePageContentCollection.cpp -o CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.s
 
 Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o.requires:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/src/OgreSimplePageContentCollection.cpp.o.requires
@@ -305,6 +305,6 @@ Components/Paging/CMakeFiles/OgrePaging.dir/clean:
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/clean
 
 Components/Paging/CMakeFiles/OgrePaging.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/CMakeFiles/OgrePaging.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/CMakeFiles/OgrePaging.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Components/Paging/CMakeFiles/OgrePaging.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

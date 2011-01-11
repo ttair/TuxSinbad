@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -118,21 +118,21 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Paging" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgreGrid2DPageStrategy.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePage.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageConnection.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageContent.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageContentCollection.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageContentCollectionFactory.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageContentFactory.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePagedWorld.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePagedWorldSection.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageFileFormats.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePageStrategy.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePaging.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgrePagingPrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include/OgreSimplePageContentCollection.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgreGrid2DPageStrategy.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePage.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageConnection.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageContent.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageContentCollection.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageContentCollectionFactory.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageContentFactory.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePagedWorld.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePagedWorldSection.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageFileFormats.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePageStrategy.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePaging.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgrePagingPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include/OgreSimplePageContentCollection.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

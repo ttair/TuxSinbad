@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/Water.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/src/WaterMesh.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/Water.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/CMakeFiles/Sample_Water.dir/src/Water.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/src/WaterMesh.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/CMakeFiles/Sample_Water.dir/src/WaterMesh.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

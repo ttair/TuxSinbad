@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -118,15 +118,15 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Terrain" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrain.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainGroup.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainLayerBlendMap.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainMaterialGenerator.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainMaterialGeneratorA.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainPrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainQuadTreeNode.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainPaging.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include/OgreTerrainPagedWorldSection.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrain.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainGroup.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainLayerBlendMap.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainMaterialGenerator.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainMaterialGeneratorA.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainQuadTreeNode.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainPaging.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include/OgreTerrainPagedWorldSection.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

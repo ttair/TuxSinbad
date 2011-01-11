@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -106,23 +106,23 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Plugins/PCZSceneManager" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgreAntiPortal.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgreCapsule.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgreDefaultZone.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCPlane.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZCamera.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZFrustum.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZLight.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZoneFactory.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZone.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZPlugin.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZPrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZSceneManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZSceneNode.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePCZSceneQuery.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePortal.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgrePortalBase.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include/OgreSegment.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgreAntiPortal.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgreCapsule.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgreDefaultZone.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCPlane.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZCamera.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZFrustum.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZLight.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZoneFactory.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZone.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZPlugin.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZSceneManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZSceneNode.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePCZSceneQuery.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePortal.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgrePortalBase.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include/OgreSegment.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

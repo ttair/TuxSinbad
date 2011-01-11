@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/main.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinystr.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxml.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlerror.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/src/tinyxmlparser.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLMeshSerializer.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLMeshSerializer.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/OgreXMLSkeletonSerializer.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/OgreXMLSkeletonSerializer.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/main.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/main.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinystr.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinystr.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxml.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxml.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlerror.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlerror.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/src/tinyxmlparser.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/CMakeFiles/OgreXMLConverter.dir/src/tinyxmlparser.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

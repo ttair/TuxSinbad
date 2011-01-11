@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/MeshUpgrader
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/MeshUpgrader
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

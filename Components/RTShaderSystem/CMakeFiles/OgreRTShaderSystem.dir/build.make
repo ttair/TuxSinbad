@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/progress.mak
 include Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPColour.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o: Components/RTShaderSystem/src/OgreShaderFFPColour.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPColour.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPColour.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPColour.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPColour.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPColour.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPColour.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o.requires
@@ -74,18 +74,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPCol
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPColour.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPFog.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o: Components/RTShaderSystem/src/OgreShaderFFPFog.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPFog.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPFog.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPFog.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPFog.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPFog.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPFog.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o.requires
@@ -98,18 +98,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPFog.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o: Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPLighting.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o.requires
@@ -122,18 +122,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLig
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPLighting.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o: Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPRenderStateBuilder.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o.requires
@@ -146,18 +146,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRen
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPRenderStateBuilder.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o: Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPTexturing.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o.requires
@@ -170,18 +170,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTex
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTexturing.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o: Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFFPTransform.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o.requires
@@ -194,18 +194,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTra
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFFPTransform.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunction.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o: Components/RTShaderSystem/src/OgreShaderFunction.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunction.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFunction.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunction.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFunction.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunction.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFunction.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o.requires
@@ -218,18 +218,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFuncti
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunction.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o: Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderFunctionAtom.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o.requires
@@ -242,18 +242,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFuncti
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderFunctionAtom.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGenerator.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o: Components/RTShaderSystem/src/OgreShaderGenerator.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGenerator.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGenerator.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGenerator.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGenerator.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGenerator.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGenerator.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o.requires
@@ -266,18 +266,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenera
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGenerator.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderParameter.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o: Components/RTShaderSystem/src/OgreShaderParameter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderParameter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderParameter.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderParameter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderParameter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderParameter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderParameter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o.requires
@@ -290,18 +290,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParame
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderParameter.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgram.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o: Components/RTShaderSystem/src/OgreShaderProgram.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgram.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgram.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgram.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgram.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgram.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgram.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o.requires
@@ -314,18 +314,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgra
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgram.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramManager.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o: Components/RTShaderSystem/src/OgreShaderProgramManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramManager.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramManager.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramManager.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramManager.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramManager.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o.requires
@@ -338,18 +338,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgra
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramManager.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramSet.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o: Components/RTShaderSystem/src/OgreShaderProgramSet.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramSet.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramSet.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramSet.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramSet.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramSet.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramSet.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o.requires
@@ -362,18 +362,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgra
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramSet.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o: Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o.requires
@@ -386,18 +386,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgra
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriter.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderRenderState.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o: Components/RTShaderSystem/src/OgreShaderRenderState.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderRenderState.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderRenderState.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderRenderState.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderRenderState.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderRenderState.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderRenderState.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o.requires
@@ -410,18 +410,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRender
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderRenderState.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o: Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderSubRenderState.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o.requires
@@ -434,18 +434,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRen
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderSubRenderState.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o: Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExNormalMapLighting.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o.requires
@@ -458,18 +458,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNorm
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExNormalMapLighting.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o: Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExPerPixelLighting.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o.requires
@@ -482,18 +482,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerP
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExPerPixelLighting.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o: Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderExIntegratedPSSM3.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o.requires
@@ -506,18 +506,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExInte
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderExIntegratedPSSM3.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o: Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderScriptTranslator.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o.requires
@@ -530,18 +530,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScript
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderScriptTranslator.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o: Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderMaterialSerializerListener.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o.requires
@@ -554,18 +554,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMateri
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderMaterialSerializerListener.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o: Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o.requires
@@ -578,18 +578,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgra
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramProcessor.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o: Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderCGProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o.requires
@@ -602,18 +602,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProg
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramProcessor.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o: Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderCGProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o.requires
@@ -626,18 +626,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProg
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderCGProgramWriter.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o: Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o.requires
@@ -650,18 +650,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLPr
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramProcessor.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o: Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderGLSLProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o.requires
@@ -674,18 +674,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLPr
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderGLSLProgramWriter.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o: Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderProgramWriterManager.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o.requires
@@ -698,18 +698,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgra
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderProgramWriterManager.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o: Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramProcessor.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o.requires
@@ -722,18 +722,18 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLPr
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramProcessor.cpp.o.provides.build
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/flags.make
-Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp
+Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o: Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp > CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.i
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/src/OgreShaderHLSLProgramWriter.cpp -o CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.s
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o.requires:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/src/OgreShaderHLSLProgramWriter.cpp.o.requires
@@ -870,6 +870,6 @@ Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/clean:
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/clean
 
 Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem /opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/depend
 

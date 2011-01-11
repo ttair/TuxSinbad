@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Terrain/CMakeFiles/Sample_Terrain.dir/progress.make
 include Samples/Terrain/CMakeFiles/Sample_Terrain.dir/flags.make
 
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o: Samples/Terrain/CMakeFiles/Sample_Terrain.dir/flags.make
-Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Terrain/src/Terrain.cpp
+Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o: Samples/Terrain/src/Terrain.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Terrain/src/Terrain.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain/src/Terrain.cpp
 
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Terrain/src/Terrain.cpp > CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain/src/Terrain.cpp > CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.i
 
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Terrain/src/Terrain.cpp -o CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain/src/Terrain.cpp -o CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.s
 
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o.requires:
 .PHONY : Samples/Terrain/CMakeFiles/Sample_Terrain.dir/src/Terrain.cpp.o.requires
@@ -116,6 +116,6 @@ Samples/Terrain/CMakeFiles/Sample_Terrain.dir/clean:
 .PHONY : Samples/Terrain/CMakeFiles/Sample_Terrain.dir/clean
 
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain/CMakeFiles/Sample_Terrain.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain/CMakeFiles/Sample_Terrain.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Terrain/CMakeFiles/Sample_Terrain.dir/depend
 

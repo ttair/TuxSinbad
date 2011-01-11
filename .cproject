@@ -19,13 +19,7 @@
 </storageModule>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.core.pathentry">
-<pathentry kind="src" path="OGRE"/>
-<pathentry kind="src" path="OgreMain"/>
-<pathentry kind="src" path="OgrePaging"/>
-<pathentry kind="src" path="OgreProperty"/>
-<pathentry kind="src" path="OgreRTShaderSystem"/>
-<pathentry kind="src" path="OgreTerrain"/>
-<pathentry excluding="OGRE/|OgrePaging/|OgreProperty/|OgreRTShaderSystem/|OgreTerrain/|**/CMakeFiles/" kind="out" path=""/>
+<pathentry excluding="**/CMakeFiles/" kind="out" path=""/>
 <pathentry kind="mac" name="BOOST_ALL_NO_LIB" path="" value=""/>
 <pathentry kind="mac" name="OGRE_NONCLIENT_BUILD" path="" value=""/>
 <pathentry kind="mac" name="FREEIMAGE_LIB" path="" value=""/>
@@ -167,67 +161,67 @@
 <pathentry kind="mac" name="__EXCEPTIONS" path="" value="1"/>
 <pathentry kind="mac" name="__GCC_HAVE_DWARF2_CFI_ASM" path="" value="1"/>
 <pathentry kind="mac" name="_GNU_SOURCE" path="" value="1"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/OgreMain/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/OgreMain/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/include/freetype2" kind="inc" path="" system="true"/>
 <pathentry include="/usr/include/OIS" kind="inc" path="" system="true"/>
 <pathentry include="/usr/include/Cg" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/OgreMain/include/GLX" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/OgreMain/src/nedmalloc" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/src/GLX" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/GLX" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/src/GLSL/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/src/atifs/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/src/nvparse" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/BSPSceneManager/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/ParticleFX/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/PCZSceneManager/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Property/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Common/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/BezierPatch/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/OgreMain/include/GLX" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/OgreMain/src/nedmalloc" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/src/GLX" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/GLX" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/src/GLSL/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/src/atifs/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/src/nvparse" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/BSPSceneManager/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/ParticleFX/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/PCZSceneManager/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Property/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Common/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/BezierPatch/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/include/ni" kind="inc" path="" system="true"/>
 <pathentry include="/usr/include/nite" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Compositor/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/FacialAnimation/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Grass/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Instancing/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Lighting/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/OceanDemo/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/ParticleFX/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/ShaderSystem/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Shadows/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/SkeletalAnimation/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/SkyBox/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/SkyDome/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/SkyPlane/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Smoke/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/SphereMapping/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Terrain/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/TextureFX/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Transparency/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Water/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/BSP/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CelShading/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DeferredShading/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CubeMapping/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/DynTex/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Fresnel/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/ParticleGS/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Browser/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Compositor/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/FacialAnimation/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Grass/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Instancing/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Lighting/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/OceanDemo/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ParticleFX/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ShaderSystem/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Shadows/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkeletalAnimation/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkyBox/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkyDome/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkyPlane/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Smoke/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SphereMapping/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Terrain/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/TextureFX/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Transparency/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Water/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/BSP/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CelShading/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DeferredShading/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CubeMapping/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/DynTex/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Fresnel/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ParticleGS/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Browser/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/local/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/lib/gcc/i486-linux-gnu/4.4.3/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed" kind="inc" path="" system="true"/>

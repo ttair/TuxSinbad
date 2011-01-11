@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/progress.make
 include Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/flags.make
 
 Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o: Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/flags.make
-Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump/src/Dot3Bump.cpp
+Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o: Samples/Dot3Bump/src/Dot3Bump.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump/src/Dot3Bump.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/src/Dot3Bump.cpp
 
 Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump/src/Dot3Bump.cpp > CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/src/Dot3Bump.cpp > CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.i
 
 Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump/src/Dot3Bump.cpp -o CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/src/Dot3Bump.cpp -o CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.s
 
 Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o.requires:
 .PHONY : Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/src/Dot3Bump.cpp.o.requires
@@ -114,6 +114,6 @@ Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/clean:
 .PHONY : Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/clean
 
 Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Dot3Bump /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/depend
 

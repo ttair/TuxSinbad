@@ -390,7 +390,7 @@ OGRE_LIB_DIRECTORY:STRING=lib
 OGRE_PROFILING:BOOL=OFF
 
 //Value Computed by CMake
-OGRE_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/ImportSinbad
+OGRE_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad
 
 //Static build
 OGRE_STATIC:BOOL=OFF
@@ -435,7 +435,7 @@ OgreMain_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/OgreMain
 OgreMain_LIB_DEPENDS:STATIC=optimized;/usr/lib/libfreetype.so;debug;/usr/lib/libfreetype.so;general;/usr/lib/libSM.so;general;/usr/lib/libICE.so;general;/usr/lib/libX11.so;general;/usr/lib/libXext.so;general;/usr/lib/libXt.so;general;/usr/lib/libXaw.so;general;pthread;general;dl;general;/usr/lib/libboost_thread-mt.so;general;/usr/lib/libboost_date_time-mt.so;optimized;/usr/lib/libfreeimage.so;debug;/usr/lib/libfreeimage.so;optimized;/usr/lib/libzzip.so;debug;/usr/lib/libzzip.so;optimized;/usr/lib/libz.so;debug;/usr/lib/libz.so;
 
 //Value Computed by CMake
-OgreMain_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/ImportSinbad/OgreMain
+OgreMain_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/OgreMain
 
 //Value Computed by CMake
 OgrePaging_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging
@@ -444,7 +444,7 @@ OgrePaging_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging
 OgrePaging_LIB_DEPENDS:STATIC=general;OgreMain;general;/usr/lib/libboost_thread-mt.so;general;/usr/lib/libboost_date_time-mt.so;
 
 //Value Computed by CMake
-OgrePaging_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Paging
+OgrePaging_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Paging
 
 //Value Computed by CMake
 OgreProperty_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Property
@@ -453,7 +453,7 @@ OgreProperty_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Prop
 OgreProperty_LIB_DEPENDS:STATIC=general;OgreMain;general;/usr/lib/libboost_thread-mt.so;general;/usr/lib/libboost_date_time-mt.so;
 
 //Value Computed by CMake
-OgreProperty_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Property
+OgreProperty_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Property
 
 //Value Computed by CMake
 OgreRTShaderSystem_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem
@@ -462,7 +462,7 @@ OgreRTShaderSystem_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Component
 OgreRTShaderSystem_LIB_DEPENDS:STATIC=general;OgreMain;
 
 //Value Computed by CMake
-OgreRTShaderSystem_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/ImportSinbad/Components/RTShaderSystem
+OgreRTShaderSystem_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/RTShaderSystem
 
 //Value Computed by CMake
 OgreTerrain_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain
@@ -471,7 +471,7 @@ OgreTerrain_BINARY_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terra
 OgreTerrain_LIB_DEPENDS:STATIC=general;OgreMain;general;OgrePaging;general;/usr/lib/libboost_thread-mt.so;general;/usr/lib/libboost_date_time-mt.so;
 
 //Value Computed by CMake
-OgreTerrain_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/ImportSinbad/Components/Terrain
+OgreTerrain_SOURCE_DIR:STATIC=/opt/kinect/LAB/Eclipse/TuxSimbad/Components/Terrain
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
@@ -899,7 +899,7 @@ CMAKE_HAVE_REMOVE:INTERNAL=1
 CMAKE_HAVE_SHMAT:INTERNAL=1
 //Start directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_HOME_DIRECTORY:INTERNAL=/opt/kinect/LAB/Eclipse/TuxSimbad
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //Have library ICE

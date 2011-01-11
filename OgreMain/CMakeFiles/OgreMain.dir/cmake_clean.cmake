@@ -186,9 +186,9 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/OgreMain.dir/src/GLX/OgreTimer.cpp.o"
   "CMakeFiles/OgreMain.dir/src/OgreSearchOps.cpp.o"
   "CMakeFiles/OgreMain.dir/src/Threading/OgreDefaultWorkQueueStandard.cpp.o"
-  "../lib/libOgreMain_d.pdb"
-  "../lib/libOgreMain_d.so"
-  "../lib/libOgreMain_d.so.1.7.2"
+  "../lib/libOgreMain.pdb"
+  "../lib/libOgreMain.so"
+  "../lib/libOgreMain.so.1.7.2"
 )
 
 # Per-language clean rules from dependency scanning.

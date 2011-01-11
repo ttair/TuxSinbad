@@ -47,7 +47,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -1771,9 +1771,9 @@ Samples/Terrain/preinstall:
 # Target rules for target Samples/Terrain/CMakeFiles/Sample_Terrain.dir
 
 # All Build rule for target.
-Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
-Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/Terrain/CMakeFiles/OgreTerrain.dir/all
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/Paging/CMakeFiles/OgrePaging.dir/all
+Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/Terrain/CMakeFiles/OgreTerrain.dir/all
+Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
 	$(MAKE) -f Samples/Terrain/CMakeFiles/Sample_Terrain.dir/build.make Samples/Terrain/CMakeFiles/Sample_Terrain.dir/depend
 	$(MAKE) -f Samples/Terrain/CMakeFiles/Sample_Terrain.dir/build.make Samples/Terrain/CMakeFiles/Sample_Terrain.dir/build
@@ -2487,48 +2487,48 @@ Samples/Browser/preinstall:
 # Target rules for target Samples/Browser/CMakeFiles/SampleBrowser.dir
 
 # All Build rule for target.
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: RenderSystems/GL/CMakeFiles/RenderSystem_GL.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Character/CMakeFiles/Sample_Character.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Compositor/CMakeFiles/Sample_Compositor.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/Terrain/CMakeFiles/OgreTerrain.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Lighting/CMakeFiles/Sample_Lighting.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Smoke/CMakeFiles/Sample_Smoke.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Shadows/CMakeFiles/Sample_Shadows.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Shadows/CMakeFiles/Sample_Shadows.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Smoke/CMakeFiles/Sample_Smoke.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Transparency/CMakeFiles/Sample_Transparency.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Water/CMakeFiles/Sample_Water.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/BSP/CMakeFiles/Sample_BSP.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CelShading/CMakeFiles/Sample_CelShading.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DynTex/CMakeFiles/Sample_DynTex.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/Paging/CMakeFiles/OgrePaging.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Instancing/CMakeFiles/Sample_Instancing.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Transparency/CMakeFiles/Sample_Transparency.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Lighting/CMakeFiles/Sample_Lighting.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Compositor/CMakeFiles/Sample_Compositor.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DynTex/CMakeFiles/Sample_DynTex.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/Paging/CMakeFiles/OgrePaging.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/Terrain/CMakeFiles/OgreTerrain.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: RenderSystems/GL/CMakeFiles/RenderSystem_GL.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Grass/CMakeFiles/Sample_Grass.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
 	$(MAKE) -f Samples/Browser/CMakeFiles/SampleBrowser.dir/build.make Samples/Browser/CMakeFiles/SampleBrowser.dir/depend
 	$(MAKE) -f Samples/Browser/CMakeFiles/SampleBrowser.dir/build.make Samples/Browser/CMakeFiles/SampleBrowser.dir/build

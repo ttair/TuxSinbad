@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/ShaderSystem/src/ShaderExReflectionMap.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/src/ShaderExReflectionMap.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/ShaderSystem/src/ShaderSystem.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/src/ShaderSystem.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ShaderSystem/src/ShaderExReflectionMap.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/src/ShaderExReflectionMap.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ShaderSystem/src/ShaderSystem.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/src/ShaderSystem.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

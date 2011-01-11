@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -106,11 +106,11 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Plugins/CgProgramManager" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/include/OgreCgFxScriptLoader.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/include/OgreCgPlugin.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/include/OgreCgPrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/include/OgreCgProgram.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/include/OgreCgProgramFactory.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/include/OgreCgFxScriptLoader.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/include/OgreCgPlugin.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/include/OgreCgPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/include/OgreCgProgram.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/include/OgreCgProgramFactory.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

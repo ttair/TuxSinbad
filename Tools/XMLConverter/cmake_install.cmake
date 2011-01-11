@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/Tools/XMLConverter
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/Tools/XMLConverter
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/ThingRenderable.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeRenderable.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeTex.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/ThingRenderable.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeRenderable.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeTex.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

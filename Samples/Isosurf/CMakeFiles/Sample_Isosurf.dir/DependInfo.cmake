@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/Isosurf.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o"
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Isosurf/src/ProceduralTools.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/Isosurf.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/Isosurf.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/src/ProceduralTools.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/src/ProceduralTools.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/progress.make
 include Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/flags.make
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o: Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/flags.make
-Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeTex.cpp
+Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o: Samples/VolumeTex/src/VolumeTex.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeTex.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeTex.cpp
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeTex.cpp > CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeTex.cpp > CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.i
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeTex.cpp -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeTex.cpp -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.s
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o.requires:
 .PHONY : Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o.provides.b
 .PHONY : Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeTex.cpp.o.provides.build
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o: Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/flags.make
-Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/ThingRenderable.cpp
+Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o: Samples/VolumeTex/src/ThingRenderable.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/ThingRenderable.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/ThingRenderable.cpp
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/ThingRenderable.cpp > CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/ThingRenderable.cpp > CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.i
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/ThingRenderable.cpp -o CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/ThingRenderable.cpp -o CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.s
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o.requires:
 .PHONY : Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o.requires
@@ -98,18 +98,18 @@ Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o.prov
 .PHONY : Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/ThingRenderable.cpp.o.provides.build
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o: Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/flags.make
-Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeRenderable.cpp
+Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o: Samples/VolumeTex/src/VolumeRenderable.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeRenderable.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeRenderable.cpp
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeRenderable.cpp > CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeRenderable.cpp > CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.i
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex/src/VolumeRenderable.cpp -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/src/VolumeRenderable.cpp -o CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.s
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o.requires:
 .PHONY : Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/src/VolumeRenderable.cpp.o.requires
@@ -168,6 +168,6 @@ Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/clean:
 .PHONY : Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/clean
 
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/VolumeTex /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/depend
 

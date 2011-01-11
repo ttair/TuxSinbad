@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/progress.make
 include PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o: PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreHeightmapTerrainZonePageSource.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o.requires
@@ -74,18 +74,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZone
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreHeightmapTerrainZonePageSource.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZone.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o: PlugIns/OctreeZone/src/OgreOctreeZone.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZone.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZone.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZone.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZone.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZone.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZone.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o.requires
@@ -98,18 +98,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o.pro
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZone.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o: PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZoneDll.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o.requires
@@ -122,18 +122,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o.
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneDll.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o: PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZoneOctree.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o.requires
@@ -146,18 +146,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZoneOctree.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o: PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreOctreeZonePlugin.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o.requires
@@ -170,18 +170,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreOctreeZonePlugin.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o: PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainVertexProgram.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o.requires
@@ -194,18 +194,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainVertexProgram.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZone.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o: PlugIns/OctreeZone/src/OgreTerrainZone.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZone.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZone.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZone.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZone.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZone.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZone.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o.requires
@@ -218,18 +218,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o.pr
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZone.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o: PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZonePage.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o.requires
@@ -242,18 +242,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePage.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o: PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZonePageSource.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o.requires
@@ -266,18 +266,18 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSourc
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZonePageSource.cpp.o.provides.build
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/flags.make
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o: PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp > CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.i
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/src/OgreTerrainZoneRenderable.cpp -o CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.s
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o.requires:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/src/OgreTerrainZoneRenderable.cpp.o.requires
@@ -356,6 +356,6 @@ PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/clean:
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/clean
 
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/depend
 

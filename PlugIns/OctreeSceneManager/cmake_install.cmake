@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -106,19 +106,19 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Plugins/OctreeSceneManager" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreHeightmapTerrainPageSource.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreOctree.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreOctreeCamera.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreOctreeNode.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreOctreePlugin.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreOctreeSceneManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreOctreeSceneQuery.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreTerrainPage.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreTerrainPageSource.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreTerrainPrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreTerrainRenderable.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreTerrainSceneManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeSceneManager/include/OgreTerrainVertexProgram.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreHeightmapTerrainPageSource.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreOctree.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreOctreeCamera.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreOctreeNode.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreOctreePlugin.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreOctreeSceneManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreOctreeSceneQuery.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreTerrainPage.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreTerrainPageSource.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreTerrainPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreTerrainRenderable.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreTerrainSceneManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeSceneManager/include/OgreTerrainVertexProgram.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

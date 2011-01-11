@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -106,50 +106,50 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/RenderSystems/GL" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLATIFSInit.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLContext.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLDefaultHardwareBufferManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLFBOMultiRenderTarget.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLFBORenderTexture.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLFrameBufferObject.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLGpuNvparseProgram.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLGpuProgram.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLGpuProgramManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLHardwareBufferManager.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLHardwareIndexBuffer.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLHardwareOcclusionQuery.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLHardwarePixelBuffer.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLHardwareVertexBuffer.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLPBRenderTexture.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLPBuffer.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLPixelFormat.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLPlugin.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLPrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLRenderSystem.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLRenderTexture.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLRenderToVertexBuffer.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLSupport.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLTexture.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/OgreGLTextureManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLATIFSInit.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLContext.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLDefaultHardwareBufferManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLFBOMultiRenderTarget.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLFBORenderTexture.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLFrameBufferObject.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLGpuNvparseProgram.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLGpuProgram.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLGpuProgramManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLHardwareBufferManager.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLHardwareIndexBuffer.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLHardwareOcclusionQuery.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLHardwarePixelBuffer.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLHardwareVertexBuffer.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLPBRenderTexture.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLPBuffer.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLPixelFormat.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLPlugin.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLPrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLRenderSystem.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLRenderTexture.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLRenderToVertexBuffer.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLSupport.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLTexture.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/OgreGLTextureManager.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/RenderSystems/GL/GLX" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/GLX/OgreGLXContext.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/GLX/OgreGLXGLSupport.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/GLX/OgreGLXRenderTexture.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/GLX/OgreGLXUtils.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/GLX/OgreGLXWindow.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/src/GLX/OgreGLUtil.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/GLX/OgreGLXContext.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/GLX/OgreGLXGLSupport.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/GLX/OgreGLXRenderTexture.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/GLX/OgreGLXUtils.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/GLX/OgreGLXWindow.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/src/GLX/OgreGLUtil.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/RenderSystems/GL" TYPE DIRECTORY FILES "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/include/GL")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/RenderSystems/GL" TYPE DIRECTORY FILES "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/include/GL")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/RenderSystems/GL" TYPE DIRECTORY FILES "/opt/kinect/LAB/Eclipse/ImportSinbad/RenderSystems/GL/src/GLSL/include/")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/RenderSystems/GL" TYPE DIRECTORY FILES "/opt/kinect/LAB/Eclipse/TuxSimbad/RenderSystems/GL/src/GLSL/include/")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

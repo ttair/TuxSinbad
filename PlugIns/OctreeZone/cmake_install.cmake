@@ -1,4 +1,4 @@
-# Install script for directory: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone
+# Install script for directory: /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -114,17 +114,17 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OGRE/Plugins/OctreeZone" TYPE FILE FILES
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreHeightmapTerrainZonePageSource.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreOctreeZone.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreOctreeZoneOctree.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreOctreeZonePlugin.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreOctreeZonePrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreTerrainVertexProgram.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreTerrainZone.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreTerrainZonePage.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreTerrainZonePageSource.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreTerrainZonePrerequisites.h"
-    "/opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/OctreeZone/include/OgreTerrainZoneRenderable.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreHeightmapTerrainZonePageSource.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreOctreeZone.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreOctreeZoneOctree.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreOctreeZonePlugin.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreOctreeZonePrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreTerrainVertexProgram.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreTerrainZone.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreTerrainZonePage.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreTerrainZonePageSource.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreTerrainZonePrerequisites.h"
+    "/opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/OctreeZone/include/OgreTerrainZoneRenderable.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

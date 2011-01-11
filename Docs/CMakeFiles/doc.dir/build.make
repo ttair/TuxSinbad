@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -45,7 +45,7 @@ CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 Docs/CMakeFiles/doc:
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building documentation"
-	cd /opt/kinect/LAB/Eclipse/ImportSinbad/Docs/src/ && /usr/bin/doxygen /opt/kinect/LAB/Eclipse/TuxSimbad/html.cfg
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Docs/src/ && /usr/bin/doxygen /opt/kinect/LAB/Eclipse/TuxSimbad/html.cfg
 
 doc: Docs/CMakeFiles/doc
 doc: Docs/CMakeFiles/doc.dir/build.make
@@ -60,6 +60,6 @@ Docs/CMakeFiles/doc.dir/clean:
 .PHONY : Docs/CMakeFiles/doc.dir/clean
 
 Docs/CMakeFiles/doc.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Docs /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Docs /opt/kinect/LAB/Eclipse/TuxSimbad/Docs/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Docs /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Docs /opt/kinect/LAB/Eclipse/TuxSimbad/Docs/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Docs/CMakeFiles/doc.dir/depend
 

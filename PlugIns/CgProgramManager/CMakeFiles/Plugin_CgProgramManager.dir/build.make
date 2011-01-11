@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/progress
 include PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/flags.make
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/flags.make
-PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp
+PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o: PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.i
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgFxScriptLoader.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.s
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o.requires:
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o.requires
@@ -74,18 +74,18 @@ PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScri
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgFxScriptLoader.cpp.o.provides.build
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/flags.make
-PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp
+PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o: PlugIns/CgProgramManager/src/OgreCgPlugin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.i
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgPlugin.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.s
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o.requires:
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o.requires
@@ -98,18 +98,18 @@ PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgPlugin.cpp.o.provides.build
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/flags.make
-PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp
+PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o: PlugIns/CgProgramManager/src/OgreCgProgram.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.i
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgram.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.s
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o.requires:
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o.requires
@@ -122,18 +122,18 @@ PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgra
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgram.cpp.o.provides.build
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/flags.make
-PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp
+PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o: PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.i
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramFactory.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.s
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o.requires:
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o.requires
@@ -146,18 +146,18 @@ PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgra
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramFactory.cpp.o.provides.build
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/flags.make
-PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp
+PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o: PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp > CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.i
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/src/OgreCgProgramManagerDll.cpp -o CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.s
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o.requires:
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/src/OgreCgProgramManagerDll.cpp.o.requires
@@ -220,6 +220,6 @@ PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/clean:
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/clean
 
 PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/PlugIns/CgProgramManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager /opt/kinect/LAB/Eclipse/TuxSimbad/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/depend
 

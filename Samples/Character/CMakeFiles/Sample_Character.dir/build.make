@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/Character/CMakeFiles/Sample_Character.dir/progress.make
 include Samples/Character/CMakeFiles/Sample_Character.dir/flags.make
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o: Samples/Character/CMakeFiles/Sample_Character.dir/flags.make
-Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/CharacterSample.cpp
+Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o: Samples/Character/src/CharacterSample.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/CharacterSample.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/CharacterSample.cpp
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/CharacterSample.cpp > CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/CharacterSample.cpp > CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.i
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/CharacterSample.cpp -o CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/CharacterSample.cpp -o CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.s
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o.requires:
 .PHONY : Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o.requires
@@ -74,18 +74,18 @@ Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o.prov
 .PHONY : Samples/Character/CMakeFiles/Sample_Character.dir/src/CharacterSample.cpp.o.provides.build
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o: Samples/Character/CMakeFiles/Sample_Character.dir/flags.make
-Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/Sinbad.cpp
+Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o: Samples/Character/src/Sinbad.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/Sinbad.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/Sinbad.cpp
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/Sinbad.cpp > CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/Sinbad.cpp > CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.i
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character/src/Sinbad.cpp -o CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/Sinbad.cpp -o CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.s
 
 Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o.requires:
 .PHONY : Samples/Character/CMakeFiles/Sample_Character.dir/src/Sinbad.cpp.o.requires
@@ -141,6 +141,6 @@ Samples/Character/CMakeFiles/Sample_Character.dir/clean:
 .PHONY : Samples/Character/CMakeFiles/Sample_Character.dir/clean
 
 Samples/Character/CMakeFiles/Sample_Character.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Character /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/CMakeFiles/Sample_Character.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/CMakeFiles/Sample_Character.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/Character/CMakeFiles/Sample_Character.dir/depend
 

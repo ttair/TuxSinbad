@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/Lighting/src/Lighting.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Lighting/CMakeFiles/Sample_Lighting.dir/src/Lighting.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Lighting/src/Lighting.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Lighting/CMakeFiles/Sample_Lighting.dir/src/Lighting.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

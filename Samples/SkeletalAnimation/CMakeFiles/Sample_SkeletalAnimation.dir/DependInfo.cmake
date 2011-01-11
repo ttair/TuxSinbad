@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/kinect/LAB/Eclipse/ImportSinbad/Samples/SkeletalAnimation/src/SkeletalAnimation.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/src/SkeletalAnimation.cpp.o"
+  "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkeletalAnimation/src/SkeletalAnimation.cpp" "/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/src/SkeletalAnimation.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

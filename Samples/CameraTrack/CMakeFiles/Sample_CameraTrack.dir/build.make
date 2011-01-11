@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/ImportSinbad
+CMAKE_SOURCE_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /opt/kinect/LAB/Eclipse/TuxSimbad
@@ -50,18 +50,18 @@ include Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/progress.make
 include Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/flags.make
 
 Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o: Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/flags.make
-Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o: /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack/src/CameraTrack.cpp
+Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o: Samples/CameraTrack/src/CameraTrack.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o -c /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack/src/CameraTrack.cpp
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o -c /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/src/CameraTrack.cpp
 
 Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.i"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack/src/CameraTrack.cpp > CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.i
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -E /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/src/CameraTrack.cpp > CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.i
 
 Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.s"
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack/src/CameraTrack.cpp -o CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.s
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DOGRE_GCC_VISIBILITY -fvisibility=hidden -fvisibility-inlines-hidden -S /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/src/CameraTrack.cpp -o CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.s
 
 Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o.requires:
 .PHONY : Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/src/CameraTrack.cpp.o.requires
@@ -114,6 +114,6 @@ Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/clean:
 .PHONY : Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/clean
 
 Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/depend:
-	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/ImportSinbad /opt/kinect/LAB/Eclipse/ImportSinbad/Samples/CameraTrack /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/kinect/LAB/Eclipse/TuxSimbad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack /opt/kinect/LAB/Eclipse/TuxSimbad /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/depend
 
