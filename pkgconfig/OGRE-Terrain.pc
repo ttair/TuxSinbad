@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: OGRE-Terrain
+Description: Outdoor terrain component for OGRE
+Version: 1.7.2
+Requires: OGRE = 1.7.2 , OGRE-Paging = 1.7.2
+Libs: -L${libdir} -lOgreTerrain
+Cflags: -I${includedir}/OGRE/Terrain -pthread

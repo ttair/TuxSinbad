@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g   CMakeFiles/OgreMeshUpgrader.dir/src/main.cpp.o  -o ../../bin/OgreMeshUpgrader -rdynamic ../../lib/libOgreMain.so.1.7.2 -lfreetype -lSM -lICE -lX11 -lXext -lXt -lXaw -lpthread -ldl -lboost_thread-mt -lboost_date_time-mt -lfreeimage -lzzip -lz -Wl,-rpath,/opt/kinect/LAB/Eclipse/TuxSimbad/lib: 

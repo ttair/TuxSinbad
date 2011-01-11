@@ -1,0 +1,85 @@
+template container BorderPanel(SdkTrays/YesNoSlider)
+{
+	metrics_mode pixels
+	material SdkTrays/MiniTray
+	horz_align center
+	height 60
+	uv_coords 0.375 0.375 0.625 0.625
+	
+	border_material SdkTrays/MiniTray
+	border_size 12 12 12 12
+	border_topleft_uv     0.000 0.000 0.375 0.375
+	border_top_uv         0.375 0.000 0.625 0.375
+	border_topright_uv    0.625 0.000 1.000 0.375
+	border_left_uv        0.000 0.375 0.375 0.625
+	border_right_uv       0.625 0.375 1.000 0.625
+	border_bottomleft_uv  0.000 0.625 0.375 1.000
+	border_bottom_uv      0.375 0.625 0.625 1.000
+	border_bottomright_uv 0.625 0.625 1.000 1.000
+
+	element TextArea(YesNoSliderCaption)
+	{
+        metrics_mode pixels
+				horz_align center
+				top 7 
+        font_name SdkTrays/Caption
+        char_height 30
+        space_width 7
+        colour 0.5 0 0
+	}
+	
+	element TextArea(NoText)
+	{
+	   	metrics_mode pixels
+		  horz_align left
+			vert_align bottom
+			top -20
+			left 30
+      font_name SdkTrays/Caption
+			caption NO
+      char_height 15
+      space_width 7
+      colour 0 0 0
+	}
+		
+	container BorderPanel(YesNoSliderTrack)
+	{
+		metrics_mode pixels
+		material SdkTrays/SliderTrack
+		left 8
+		height 12
+		vert_align bottom
+		top -20
+		uv_coords 0.31 0.0 0.69 1.0
+		
+		border_material SdkTrays/SliderTrack
+		border_size 10 10 0 0
+		border_left_uv  0.0 0.0 0.31 1.0
+		border_right_uv 0.69 0.0 1.0 1.0
+		
+		element Panel(YesNoSliderHandle)
+		{
+			metrics_mode pixels
+			material SdkTrays/Handle
+			vert_align center
+			top -8
+			width 16
+			height 16
+		}
+
+	}
+		element TextArea(YesText)
+		{
+			metrics_mode pixels
+			horz_align right
+			vert_align bottom
+			top -20
+			left -50
+      font_name SdkTrays/Caption
+			caption YES
+      char_height 15
+      space_width 7
+      colour 0 0 0
+		}
+
+}
