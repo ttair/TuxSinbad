@@ -12,8 +12,6 @@ SamplePlugin.h
 CharacterSample.h
 /opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/CharacterSample.h
 
-/opt/kinect/LAB/Eclipse/TuxSimbad/Samples/Character/src/Sinbad.cpp
-
 /usr/include/OIS/OIS.h
 OISPrereqs.h
 /usr/include/OIS/OISPrereqs.h

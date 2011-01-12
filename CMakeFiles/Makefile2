@@ -466,8 +466,8 @@ PlugIns/OctreeZone/preinstall:
 # Target rules for target PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir
 
 # All Build rule for target.
-PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/all: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/all
 PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/all: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/all
 	$(MAKE) -f PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/build.make PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/depend
 	$(MAKE) -f PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/build.make PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  63 64
@@ -641,8 +641,8 @@ Components/Terrain/preinstall:
 # Target rules for target Components/Terrain/CMakeFiles/OgreTerrain.dir
 
 # All Build rule for target.
-Components/Terrain/CMakeFiles/OgreTerrain.dir/all: Components/Paging/CMakeFiles/OgrePaging.dir/all
 Components/Terrain/CMakeFiles/OgreTerrain.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Components/Terrain/CMakeFiles/OgreTerrain.dir/all: Components/Paging/CMakeFiles/OgrePaging.dir/all
 	$(MAKE) -f Components/Terrain/CMakeFiles/OgreTerrain.dir/build.make Components/Terrain/CMakeFiles/OgreTerrain.dir/depend
 	$(MAKE) -f Components/Terrain/CMakeFiles/OgreTerrain.dir/build.make Components/Terrain/CMakeFiles/OgreTerrain.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  53 54
@@ -853,8 +853,8 @@ Samples/BezierPatch/preinstall:
 # Target rules for target Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir
 
 # All Build rule for target.
-Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/build.make Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/depend
 	$(MAKE) -f Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/build.make Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  88
@@ -904,8 +904,8 @@ Samples/CameraTrack/preinstall:
 # Target rules for target Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir
 
 # All Build rule for target.
-Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/build.make Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/depend
 	$(MAKE) -f Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/build.make Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -955,8 +955,8 @@ Samples/Character/preinstall:
 # Target rules for target Samples/Character/CMakeFiles/Sample_Character.dir
 
 # All Build rule for target.
-Samples/Character/CMakeFiles/Sample_Character.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Character/CMakeFiles/Sample_Character.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Character/CMakeFiles/Sample_Character.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Character/CMakeFiles/Sample_Character.dir/build.make Samples/Character/CMakeFiles/Sample_Character.dir/depend
 	$(MAKE) -f Samples/Character/CMakeFiles/Sample_Character.dir/build.make Samples/Character/CMakeFiles/Sample_Character.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  89
@@ -1006,8 +1006,8 @@ Samples/Compositor/preinstall:
 # Target rules for target Samples/Compositor/CMakeFiles/Sample_Compositor.dir
 
 # All Build rule for target.
-Samples/Compositor/CMakeFiles/Sample_Compositor.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Compositor/CMakeFiles/Sample_Compositor.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Compositor/CMakeFiles/Sample_Compositor.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Compositor/CMakeFiles/Sample_Compositor.dir/build.make Samples/Compositor/CMakeFiles/Sample_Compositor.dir/depend
 	$(MAKE) -f Samples/Compositor/CMakeFiles/Sample_Compositor.dir/build.make Samples/Compositor/CMakeFiles/Sample_Compositor.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1057,8 +1057,8 @@ Samples/FacialAnimation/preinstall:
 # Target rules for target Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir
 
 # All Build rule for target.
-Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/build.make Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/depend
 	$(MAKE) -f Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/build.make Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  93
@@ -1108,8 +1108,8 @@ Samples/Grass/preinstall:
 # Target rules for target Samples/Grass/CMakeFiles/Sample_Grass.dir
 
 # All Build rule for target.
-Samples/Grass/CMakeFiles/Sample_Grass.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Grass/CMakeFiles/Sample_Grass.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Grass/CMakeFiles/Sample_Grass.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Grass/CMakeFiles/Sample_Grass.dir/build.make Samples/Grass/CMakeFiles/Sample_Grass.dir/depend
 	$(MAKE) -f Samples/Grass/CMakeFiles/Sample_Grass.dir/build.make Samples/Grass/CMakeFiles/Sample_Grass.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1159,8 +1159,8 @@ Samples/Instancing/preinstall:
 # Target rules for target Samples/Instancing/CMakeFiles/Sample_Instancing.dir
 
 # All Build rule for target.
-Samples/Instancing/CMakeFiles/Sample_Instancing.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Instancing/CMakeFiles/Sample_Instancing.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Instancing/CMakeFiles/Sample_Instancing.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Instancing/CMakeFiles/Sample_Instancing.dir/build.make Samples/Instancing/CMakeFiles/Sample_Instancing.dir/depend
 	$(MAKE) -f Samples/Instancing/CMakeFiles/Sample_Instancing.dir/build.make Samples/Instancing/CMakeFiles/Sample_Instancing.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1210,8 +1210,8 @@ Samples/Lighting/preinstall:
 # Target rules for target Samples/Lighting/CMakeFiles/Sample_Lighting.dir
 
 # All Build rule for target.
-Samples/Lighting/CMakeFiles/Sample_Lighting.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Lighting/CMakeFiles/Sample_Lighting.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Lighting/CMakeFiles/Sample_Lighting.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Lighting/CMakeFiles/Sample_Lighting.dir/build.make Samples/Lighting/CMakeFiles/Sample_Lighting.dir/depend
 	$(MAKE) -f Samples/Lighting/CMakeFiles/Sample_Lighting.dir/build.make Samples/Lighting/CMakeFiles/Sample_Lighting.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1261,8 +1261,8 @@ Samples/OceanDemo/preinstall:
 # Target rules for target Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir
 
 # All Build rule for target.
-Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/build.make Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/depend
 	$(MAKE) -f Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/build.make Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1312,8 +1312,8 @@ Samples/ParticleFX/preinstall:
 # Target rules for target Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir
 
 # All Build rule for target.
-Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/build.make Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/depend
 	$(MAKE) -f Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/build.make Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  95
@@ -1363,8 +1363,8 @@ Samples/ShaderSystem/preinstall:
 # Target rules for target Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir
 
 # All Build rule for target.
-Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/build.make Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/depend
 	$(MAKE) -f Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/build.make Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  96
@@ -1414,8 +1414,8 @@ Samples/Shadows/preinstall:
 # Target rules for target Samples/Shadows/CMakeFiles/Sample_Shadows.dir
 
 # All Build rule for target.
-Samples/Shadows/CMakeFiles/Sample_Shadows.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Shadows/CMakeFiles/Sample_Shadows.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Shadows/CMakeFiles/Sample_Shadows.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Shadows/CMakeFiles/Sample_Shadows.dir/build.make Samples/Shadows/CMakeFiles/Sample_Shadows.dir/depend
 	$(MAKE) -f Samples/Shadows/CMakeFiles/Sample_Shadows.dir/build.make Samples/Shadows/CMakeFiles/Sample_Shadows.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1465,8 +1465,8 @@ Samples/SkeletalAnimation/preinstall:
 # Target rules for target Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir
 
 # All Build rule for target.
-Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/build.make Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/depend
 	$(MAKE) -f Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/build.make Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1516,8 +1516,8 @@ Samples/SkyBox/preinstall:
 # Target rules for target Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir
 
 # All Build rule for target.
-Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/build.make Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/depend
 	$(MAKE) -f Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/build.make Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1567,8 +1567,8 @@ Samples/SkyDome/preinstall:
 # Target rules for target Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir
 
 # All Build rule for target.
-Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/build.make Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/depend
 	$(MAKE) -f Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/build.make Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  97
@@ -1618,8 +1618,8 @@ Samples/SkyPlane/preinstall:
 # Target rules for target Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir
 
 # All Build rule for target.
-Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/build.make Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/depend
 	$(MAKE) -f Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/build.make Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1669,8 +1669,8 @@ Samples/Smoke/preinstall:
 # Target rules for target Samples/Smoke/CMakeFiles/Sample_Smoke.dir
 
 # All Build rule for target.
-Samples/Smoke/CMakeFiles/Sample_Smoke.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Smoke/CMakeFiles/Sample_Smoke.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Smoke/CMakeFiles/Sample_Smoke.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Smoke/CMakeFiles/Sample_Smoke.dir/build.make Samples/Smoke/CMakeFiles/Sample_Smoke.dir/depend
 	$(MAKE) -f Samples/Smoke/CMakeFiles/Sample_Smoke.dir/build.make Samples/Smoke/CMakeFiles/Sample_Smoke.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1720,8 +1720,8 @@ Samples/SphereMapping/preinstall:
 # Target rules for target Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir
 
 # All Build rule for target.
-Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/build.make Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/depend
 	$(MAKE) -f Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/build.make Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1771,10 +1771,10 @@ Samples/Terrain/preinstall:
 # Target rules for target Samples/Terrain/CMakeFiles/Sample_Terrain.dir
 
 # All Build rule for target.
+Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/Paging/CMakeFiles/OgrePaging.dir/all
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/Terrain/CMakeFiles/OgreTerrain.dir/all
 Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
-Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
 	$(MAKE) -f Samples/Terrain/CMakeFiles/Sample_Terrain.dir/build.make Samples/Terrain/CMakeFiles/Sample_Terrain.dir/depend
 	$(MAKE) -f Samples/Terrain/CMakeFiles/Sample_Terrain.dir/build.make Samples/Terrain/CMakeFiles/Sample_Terrain.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  98
@@ -1824,8 +1824,8 @@ Samples/TextureFX/preinstall:
 # Target rules for target Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir
 
 # All Build rule for target.
-Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/build.make Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/depend
 	$(MAKE) -f Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/build.make Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1875,8 +1875,8 @@ Samples/Transparency/preinstall:
 # Target rules for target Samples/Transparency/CMakeFiles/Sample_Transparency.dir
 
 # All Build rule for target.
-Samples/Transparency/CMakeFiles/Sample_Transparency.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Transparency/CMakeFiles/Sample_Transparency.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Transparency/CMakeFiles/Sample_Transparency.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Transparency/CMakeFiles/Sample_Transparency.dir/build.make Samples/Transparency/CMakeFiles/Sample_Transparency.dir/depend
 	$(MAKE) -f Samples/Transparency/CMakeFiles/Sample_Transparency.dir/build.make Samples/Transparency/CMakeFiles/Sample_Transparency.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -1926,8 +1926,8 @@ Samples/VolumeTex/preinstall:
 # Target rules for target Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir
 
 # All Build rule for target.
-Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/build.make Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/depend
 	$(MAKE) -f Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/build.make Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  99
@@ -1977,8 +1977,8 @@ Samples/Water/preinstall:
 # Target rules for target Samples/Water/CMakeFiles/Sample_Water.dir
 
 # All Build rule for target.
-Samples/Water/CMakeFiles/Sample_Water.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Water/CMakeFiles/Sample_Water.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Water/CMakeFiles/Sample_Water.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Water/CMakeFiles/Sample_Water.dir/build.make Samples/Water/CMakeFiles/Sample_Water.dir/depend
 	$(MAKE) -f Samples/Water/CMakeFiles/Sample_Water.dir/build.make Samples/Water/CMakeFiles/Sample_Water.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2028,8 +2028,8 @@ Samples/BSP/preinstall:
 # Target rules for target Samples/BSP/CMakeFiles/Sample_BSP.dir
 
 # All Build rule for target.
-Samples/BSP/CMakeFiles/Sample_BSP.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/BSP/CMakeFiles/Sample_BSP.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/BSP/CMakeFiles/Sample_BSP.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/BSP/CMakeFiles/Sample_BSP.dir/build.make Samples/BSP/CMakeFiles/Sample_BSP.dir/depend
 	$(MAKE) -f Samples/BSP/CMakeFiles/Sample_BSP.dir/build.make Samples/BSP/CMakeFiles/Sample_BSP.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2079,8 +2079,8 @@ Samples/CelShading/preinstall:
 # Target rules for target Samples/CelShading/CMakeFiles/Sample_CelShading.dir
 
 # All Build rule for target.
-Samples/CelShading/CMakeFiles/Sample_CelShading.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/CelShading/CMakeFiles/Sample_CelShading.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/CelShading/CMakeFiles/Sample_CelShading.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/CelShading/CMakeFiles/Sample_CelShading.dir/build.make Samples/CelShading/CMakeFiles/Sample_CelShading.dir/depend
 	$(MAKE) -f Samples/CelShading/CMakeFiles/Sample_CelShading.dir/build.make Samples/CelShading/CMakeFiles/Sample_CelShading.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2130,8 +2130,8 @@ Samples/DeferredShading/preinstall:
 # Target rules for target Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir
 
 # All Build rule for target.
-Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/build.make Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/depend
 	$(MAKE) -f Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/build.make Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  90 91 92
@@ -2181,8 +2181,8 @@ Samples/CubeMapping/preinstall:
 # Target rules for target Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir
 
 # All Build rule for target.
-Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/build.make Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/depend
 	$(MAKE) -f Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/build.make Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2232,8 +2232,8 @@ Samples/Dot3Bump/preinstall:
 # Target rules for target Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir
 
 # All Build rule for target.
-Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/build.make Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/depend
 	$(MAKE) -f Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/build.make Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2283,8 +2283,8 @@ Samples/DynTex/preinstall:
 # Target rules for target Samples/DynTex/CMakeFiles/Sample_DynTex.dir
 
 # All Build rule for target.
-Samples/DynTex/CMakeFiles/Sample_DynTex.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/DynTex/CMakeFiles/Sample_DynTex.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/DynTex/CMakeFiles/Sample_DynTex.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/DynTex/CMakeFiles/Sample_DynTex.dir/build.make Samples/DynTex/CMakeFiles/Sample_DynTex.dir/depend
 	$(MAKE) -f Samples/DynTex/CMakeFiles/Sample_DynTex.dir/build.make Samples/DynTex/CMakeFiles/Sample_DynTex.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2334,8 +2334,8 @@ Samples/Fresnel/preinstall:
 # Target rules for target Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir
 
 # All Build rule for target.
-Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/build.make Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/depend
 	$(MAKE) -f Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/build.make Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2385,8 +2385,8 @@ Samples/Isosurf/preinstall:
 # Target rules for target Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir
 
 # All Build rule for target.
-Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/build.make Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/depend
 	$(MAKE) -f Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/build.make Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles  94
@@ -2436,8 +2436,8 @@ Samples/ParticleGS/preinstall:
 # Target rules for target Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir
 
 # All Build rule for target.
-Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
 	$(MAKE) -f Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/build.make Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/depend
 	$(MAKE) -f Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/build.make Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 
@@ -2487,49 +2487,49 @@ Samples/Browser/preinstall:
 # Target rules for target Samples/Browser/CMakeFiles/SampleBrowser.dir
 
 # All Build rule for target.
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: RenderSystems/GL/CMakeFiles/RenderSystem_GL.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/OctreeSceneManager/CMakeFiles/Plugin_OctreeSceneManager.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Character/CMakeFiles/Sample_Character.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Smoke/CMakeFiles/Sample_Smoke.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Shadows/CMakeFiles/Sample_Shadows.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/ParticleFX/CMakeFiles/Plugin_ParticleFX.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/PCZSceneManager/CMakeFiles/Plugin_PCZSceneManager.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Water/CMakeFiles/Sample_Water.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/BSP/CMakeFiles/Sample_BSP.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CelShading/CMakeFiles/Sample_CelShading.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Instancing/CMakeFiles/Sample_Instancing.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Transparency/CMakeFiles/Sample_Transparency.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Lighting/CMakeFiles/Sample_Lighting.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Compositor/CMakeFiles/Sample_Compositor.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DynTex/CMakeFiles/Sample_DynTex.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: PlugIns/OctreeZone/CMakeFiles/Plugin_OctreeZone.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/Paging/CMakeFiles/OgrePaging.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/Terrain/CMakeFiles/OgreTerrain.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: RenderSystems/GL/CMakeFiles/RenderSystem_GL.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Grass/CMakeFiles/Sample_Grass.dir/all
 Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Components/RTShaderSystem/CMakeFiles/OgreRTShaderSystem.dir/all
-Samples/Browser/CMakeFiles/SampleBrowser.dir/all: OgreMain/CMakeFiles/OgreMain.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/BezierPatch/CMakeFiles/Sample_BezierPatch.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CameraTrack/CMakeFiles/Sample_CameraTrack.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Character/CMakeFiles/Sample_Character.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Compositor/CMakeFiles/Sample_Compositor.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/FacialAnimation/CMakeFiles/Sample_FacialAnimation.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Grass/CMakeFiles/Sample_Grass.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Instancing/CMakeFiles/Sample_Instancing.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Lighting/CMakeFiles/Sample_Lighting.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/OceanDemo/CMakeFiles/Sample_Ocean.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleFX/CMakeFiles/Sample_ParticleFX.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ShaderSystem/CMakeFiles/Sample_ShaderSystem.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Shadows/CMakeFiles/Sample_Shadows.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkeletalAnimation/CMakeFiles/Sample_SkeletalAnimation.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyBox/CMakeFiles/Sample_SkyBox.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyDome/CMakeFiles/Sample_SkyDome.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SkyPlane/CMakeFiles/Sample_SkyPlane.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Smoke/CMakeFiles/Sample_Smoke.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/SphereMapping/CMakeFiles/Sample_SphereMapping.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Terrain/CMakeFiles/Sample_Terrain.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/TextureFX/CMakeFiles/Sample_TextureFX.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Transparency/CMakeFiles/Sample_Transparency.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/VolumeTex/CMakeFiles/Sample_VolumeTex.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Water/CMakeFiles/Sample_Water.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/BSP/CMakeFiles/Sample_BSP.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CelShading/CMakeFiles/Sample_CelShading.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DeferredShading/CMakeFiles/Sample_DeferredShading.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/CubeMapping/CMakeFiles/Sample_CubeMapping.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Dot3Bump/CMakeFiles/Sample_Dot3Bump.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/DynTex/CMakeFiles/Sample_DynTex.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Fresnel/CMakeFiles/Sample_Fresnel.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/Isosurf/CMakeFiles/Sample_Isosurf.dir/all
+Samples/Browser/CMakeFiles/SampleBrowser.dir/all: Samples/ParticleGS/CMakeFiles/Sample_ParticleGS.dir/all
 	$(MAKE) -f Samples/Browser/CMakeFiles/SampleBrowser.dir/build.make Samples/Browser/CMakeFiles/SampleBrowser.dir/depend
 	$(MAKE) -f Samples/Browser/CMakeFiles/SampleBrowser.dir/build.make Samples/Browser/CMakeFiles/SampleBrowser.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /opt/kinect/LAB/Eclipse/TuxSimbad/CMakeFiles 

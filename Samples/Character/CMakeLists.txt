@@ -20,7 +20,7 @@ include_directories(/usr/include/nite)
 
 add_library(Sample_Character ${OGRE_LIB_TYPE} ${HEADER_FILES} ${SOURCE_FILES} )
 
-target_link_libraries(Sample_Character ${OGRE_LIBRARIES} ${OIS_LIBRARIES} XnVNite)  
+target_link_libraries(Sample_Character ${OGRE_LIBRARIES} ${OIS_LIBRARIES} XnVNite rt OpenNI)  
 #target_link_libraries(Sample_Character ${OGRE_LIBRARIES} ${OIS_LIBRARIES} rt )
 
 

@@ -410,7 +410,7 @@ public:
 
 		// Init OpenNI from XML
 		XnStatus rc = XN_STATUS_OK;
-		rc = m_Context.InitFromXmlFile("./openni.xml");
+		rc = m_Context.InitFromXmlFile("/opt/kinect/LAB/Eclipse/TuxSimbad/bin/openNi.xml");
 		CHECK_RC(rc, "InitFromXml");
 
 		// Make sure we have all OpenNI nodes we will be needing for this sample

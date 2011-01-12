@@ -519,7 +519,7 @@ Sample_CameraTrack_LIB_DEPENDS:STATIC=general;OgreMain;general;OgreRTShaderSyste
 Sample_CelShading_LIB_DEPENDS:STATIC=general;OgreMain;general;OgreRTShaderSystem;optimized;/usr/lib/libOIS.so;debug;/usr/lib/libOIS.so;
 
 //Dependencies for the target
-Sample_Character_LIB_DEPENDS:STATIC=general;OgreMain;general;OgreRTShaderSystem;optimized;/usr/lib/libOIS.so;debug;/usr/lib/libOIS.so;general;XnVNite;
+Sample_Character_LIB_DEPENDS:STATIC=general;OgreMain;general;OgreRTShaderSystem;optimized;/usr/lib/libOIS.so;debug;/usr/lib/libOIS.so;general;XnVNite;general;rt;general;OpenNI;
 
 //Dependencies for the target
 Sample_Compositor_LIB_DEPENDS:STATIC=general;OgreMain;general;OgreRTShaderSystem;optimized;/usr/lib/libOIS.so;debug;/usr/lib/libOIS.so;
